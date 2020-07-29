@@ -42,5 +42,4 @@ function draw() {
 
 function randomVelocity() {
   ball.velocityY = random(-16, 16);
-  console.log(ball.velocityY);
 }
