@@ -26,6 +26,9 @@ function draw() {
   ball.bounceOff(edges[3]);
   ball.bounceOff(paddle, randomVelocity);
 
+  paddle.bounceOff(edges[2]);
+  paddle.bounceOff(edges[3]);
+  
   if (keyDown("up")) {
     paddle.y -= 20;
   }
